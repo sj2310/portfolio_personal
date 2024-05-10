@@ -1,0 +1,54 @@
+.first{
+    margin-bottom: 15vh;
+    margin-top: 4vh;
+    font-size: 1.25rem;
+}
+.first-dp{
+    padding: 20px;
+}
+.first-dp img{
+    width:max(250px,26vw);
+    height: auto;
+}
+
+.download-cv,.hire-me{
+    height: 51.2px;
+    width: 150px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 2rem;
+    margin: 0px 10px;
+    background: transparent;
+    border: 1.6px solid;
+}
+.hire-me{
+    background-color:hsla(0, 0%, 0%, 0.80);
+    color: white;
+}
+.download-cv:hover{
+    background-color:hsla(0, 0%, 0%, 0.8);
+    color: white;
+    transition: all 0.4s ease-out;
+}
+.hire-me:hover{
+    background-color:hsla(0, 0%, 0%, 1);
+    color: white;
+    transition: all 0.4s ease-out;
+}
+.first-social{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media screen and (min-width:1350px) {
+   .first{
+    display: flex;
+    justify-content: center;
+    margin-top: 12vh;
+    align-items: center;
+    gap: 50px;
+   }
+  }
+

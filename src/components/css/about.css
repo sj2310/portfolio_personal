@@ -1,0 +1,49 @@
+.about{
+    margin-bottom: 10vh;
+}
+h1{
+    font-size: 3rem;
+}
+h3{
+    font-size: 1.25rem;
+    color: black;
+    padding-bottom: 3px;
+}
+.about-container-photo{
+margin-bottom: 40px;
+}
+.about-container-photo img{
+    width:max(250px,26vw);
+    border-radius: 15%;
+}
+.about-container-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.education,.experience{
+    border: 1.6px solid var(--PCOLOR);
+    width: 47.5%;
+    border-radius: 25px;
+    padding: 15px;
+}
+.about-container-data-box{
+    display: flex;
+    justify-content: center;
+    gap:5%;
+    flex-wrap: wrap;
+}
+.para{
+    text-align: justify;
+    margin-top: 40px;
+}
+
+@media screen and (min-width:1350px) {
+    .about-container{
+        display: flex;
+        gap: 25px;
+    }
+    .about-title{
+        margin-bottom: 50px;
+    }
+   }

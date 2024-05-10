@@ -1,0 +1,75 @@
+h3 {
+  color: var(--PCOLOR);
+  font-size: 1.75rem;
+  padding-bottom: 15px;
+}
+.skills {
+  padding-top: 60px;
+  margin-bottom: 150px;
+}
+.Skills-title {
+  margin-bottom: 35px;
+}
+.skills-box {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  flex-wrap: wrap;
+}
+.Libraries,
+.Programming {
+  border: 1.6px solid var(--PCOLOR);
+  width: 47.5%;
+  border-radius: 25px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Programming-list,
+.Libraries-list {
+  width: 100%;
+  min-width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.list-item {
+  display: flex;
+  gap: 10px;
+  width: 210px;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.list-item span {
+  font-size: 1.5rem;
+  text-align: left;
+}
+@media screen and (min-width: 1220px) {
+  .Programming-list,
+  .Libraries-list {
+    width: 90%;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr;
+  }
+  .Libraries,
+  .Programming {
+    padding: 55px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+    .list-item span {
+        font-size: 1rem;
+        text-align: left;
+      }
+      .list-item {
+        width: 170px;
+      }
+      h3{
+        font-size: 1.4rem;
+      }
+}

@@ -1,0 +1,33 @@
+.contact{
+    margin-bottom: 150px;
+}
+.contact-links{
+    font-size: 1em;
+    border: 1.6px solid var(--PCOLOR);
+    width: 50%;
+    height: 12vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    gap: 50px;
+    padding: 15px;
+    margin-top: 40px;
+}
+.contact-link{
+    display: flex;
+}
+@media screen and (min-width:800px){
+    .contact-link{
+        width: 1000px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .contact-links{
+        flex-direction: column;
+        width: max-content;
+        height: max-content;
+    }
+}

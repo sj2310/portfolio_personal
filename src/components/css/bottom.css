@@ -1,0 +1,13 @@
+.bottom{
+    margin-bottom: 50px;
+}
+.bottom-menu{
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+li{
+    font-size: 1.5rem;
+}
