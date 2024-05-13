@@ -6,8 +6,11 @@ h1{
 }
 h3{
     font-size: 1.25rem;
-    color: black;
+    color: black !important;
     padding-bottom: 3px;
+}
+p{
+    color: hsla(0, 0%, 0%, 0.6) !important;
 }
 .about-container-photo{
 margin-bottom: 40px;

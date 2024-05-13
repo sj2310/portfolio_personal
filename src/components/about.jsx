@@ -19,24 +19,37 @@ export const About = () => {
             <div className="education">
               <img src={education} alt="" width="35px" height="35px"></img>
               <h3>Education</h3>
-              <p> B.E. Bachelors Degree<br/>
-              (Mechanical)</p>
+              <p>
+                {" "}
+                B.E. Bachelors Degree
+                <br />
+                (Mechanical)
+              </p>
             </div>
             <div className="experience">
               <img src={experience} alt="" width="35px" height="35px"></img>
               <h3>Experience</h3>
-              <p>4+ month<br/>Intership Experience</p>
+              <p>
+                4+ month
+                <br />
+                Intership Experience
+              </p>
             </div>
           </div>
           <div className="para">
-          <p className="para-p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-            reprehenderit et laborum, rem, dolore eum quod voluptate
-            exercitationem nobis, nihil esse debitis maxime facere minus sint
-            delectus velit in eos quo officiis explicabo deleniti dignissimos.
-            Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-            reiciendis ea magnam? Nulla, impedit fuga!
-          </p>
+            <p className="para-p">
+              Sajal Jain is a proficient engineer based in Guna, MP, skilled
+              in a range of programming languages and frameworks including C++,
+              Python, React, and Node.js. With a solid foundation in engineering
+              from Institute of Engineering & Technology, DAVV. Sajal has
+              developed diverse projects such as MoneyBuzz, a financial blog
+              platform with responsive design and engaging animations, and
+              Promptogram, a Next.js project showcasing CRUD operations and
+              seamless search functionality. Sajal's experience spans from
+              internships at Quark Consulting to leading a team as System Head
+              at Samanvaya Racing for BAJA SAE 2022, demonstrating strong
+              leadership and technical expertise.
+            </p>
           </div>
         </div>
       </div>

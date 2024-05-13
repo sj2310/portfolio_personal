@@ -10,7 +10,9 @@
     width:max(250px,26vw);
     height: auto;
 }
-
+.light{
+    color: var(--PCOLOR) !important;
+}
 .download-cv,.hire-me{
     height: 51.2px;
     width: 150px;

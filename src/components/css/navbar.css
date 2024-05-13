@@ -69,6 +69,7 @@ li{
   display: flex;
   gap:10%;
   margin-right: 10rem;
+  justify-content: center;
 }
 .menu2-list li{
   font-size: 1.5rem;
@@ -77,14 +78,26 @@ li{
   color: hsla(0, 0%, 0%, 0.123);
 }
 
+button a{
+  background-color: aqua;
+}
 /* mediaQuery */
 
 
 @media screen and (min-width:1350px) {
   .menu{
-     display: none;
+     visibility: hidden;
   }
   .menu2{
      display: block;
+  }
+}
+@media screen and (max-width: 500px) {
+  .navbar{
+    width: 100vw;
+    padding: 0px;
+  }
+  .navbar-menu {
+    right: 0px;
   }
 }

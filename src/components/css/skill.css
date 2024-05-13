@@ -1,11 +1,12 @@
 h3 {
   color: var(--PCOLOR);
-  font-size: 1.75rem;
+  font-size: 2rem;
   padding-bottom: 15px;
 }
 .skills {
   padding-top: 60px;
   margin-bottom: 150px;
+  color: hsla(0, 0%, 0%, 0.8);
 }
 .Skills-title {
   margin-bottom: 35px;
