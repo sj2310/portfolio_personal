@@ -18,12 +18,13 @@
   opacity: 0;
   transition: visibility 0s, opacity 0.5s ease;
 }
+/* menu icon  */
+
 .navbar-menu-icon {
   display: flex;
   gap: 2px;
   width: 40px;
   flex-wrap: wrap;
-
 }
 .box {
   height: 15px;
@@ -37,17 +38,16 @@
     height: 14px;
     width: 14px;
 }
-ul{
-    list-style-type: none;
-}
 .change .box:nth-child(2)  {
     transform: rotateZ(0deg);
     background-color: black;
     transition: all 0.3s ease;
 }
-li{
-  font-size: 1.25rem;
+
+ul{
+    list-style-type:none;
 }
+
 .animate{
   visibility: visible;
   opacity: 1;
@@ -63,39 +63,37 @@ li{
   }
 }
 .menu2{
-  visibility: hidden;
+  display: none;
 }
 .menu2-list{
+  width:auto;
   display: flex;
   gap:10%;
-  margin-right: 10rem;
   justify-content: center;
 }
 .menu2-list li{
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 .menu2-list li:hover{
   color: hsla(0, 0%, 0%, 0.123);
 }
 
-button a{
-  background-color: aqua;
-}
+
 /* mediaQuery */
 
 
-@media screen and (min-width:1350px) {
+@media screen and (min-width:950px) {
   .menu{
-     visibility: hidden;
-  }
-  .menu2{
-    visibility: visible;
-  }
+    display: none; 
+ }
+ .menu2{
+   display: block;
+ }
 }
 @media screen and (max-width: 500px) {
   .navbar{
     width: 100vw;
-    padding: 0px;
+    padding: 5px 0px;
   }
   .navbar-menu {
     right: 0px;
