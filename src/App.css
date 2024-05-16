@@ -6,6 +6,9 @@
   --PCOLOR :hsla(0, 0%, 0%, 0.4);
   --H6COLOR:hsla(0, 0%, 0%, 0.7);
 }
+html{
+  background-color: #FAF9F0;
+}
 .App {
   text-align: center;
   font-family: "Poppins", sans-serif;

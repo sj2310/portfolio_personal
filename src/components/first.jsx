@@ -4,7 +4,7 @@ import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
 import leetcode from "../assets/leetcode.jpg"
 import "./css/first.css";
-import pdf from "../assets/Sajal_jainresume.pdf";
+import pdf from "../assets/sajal-jain-cv.pdf";
 
 export const First = () => {
   const openPdfInNewWindow = () => {
