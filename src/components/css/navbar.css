@@ -63,7 +63,7 @@ li{
   }
 }
 .menu2{
-  display: none;
+  visibility: hidden;
 }
 .menu2-list{
   display: flex;
@@ -89,7 +89,7 @@ button a{
      visibility: hidden;
   }
   .menu2{
-     display: block;
+    visibility: visible;
   }
 }
 @media screen and (max-width: 500px) {
