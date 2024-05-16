@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio_personal/static/css/main.c3099a86.css",
-    "main.js": "/portfolio_personal/static/js/main.c2dfbf73.js",
+    "main.css": "/portfolio_personal/static/css/main.f37dd08f.css",
+    "main.js": "/portfolio_personal/static/js/main.4dd69022.js",
     "static/media/dp2.png": "/portfolio_personal/static/media/dp2.21295c64d93ee23b9c4d.png",
     "static/media/project-3.png": "/portfolio_personal/static/media/project-3.d5bf2eac8c8937a85bc3.png",
     "static/media/dp1.png": "/portfolio_personal/static/media/dp1.98e3b43f8f946bd28bb9.png",
-    "static/media/Sajal_jainresume.pdf": "/portfolio_personal/static/media/Sajal_jainresume.023d69874c45d179dc93.pdf",
+    "static/media/project-1.png": "/portfolio_personal/static/media/project-1.634ace493ca835690f29.png",
+    "static/media/sajal-jain-cv.pdf": "/portfolio_personal/static/media/sajal-jain-cv.4f062ccea49543260e8f.pdf",
+    "static/media/leetcode.jpg": "/portfolio_personal/static/media/leetcode.600c110dc0a9e8094879.jpg",
     "static/media/email.png": "/portfolio_personal/static/media/email.761df3bc69bdc631bd2f.png",
     "static/media/checkmark.png": "/portfolio_personal/static/media/checkmark.86728d9a224a2c7c95d4.png",
     "static/media/linkedin.png": "/portfolio_personal/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/portfolio_personal/index.html",
-    "main.c3099a86.css.map": "/portfolio_personal/static/css/main.c3099a86.css.map",
-    "main.c2dfbf73.js.map": "/portfolio_personal/static/js/main.c2dfbf73.js.map"
+    "main.f37dd08f.css.map": "/portfolio_personal/static/css/main.f37dd08f.css.map",
+    "main.4dd69022.js.map": "/portfolio_personal/static/js/main.4dd69022.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3099a86.css",
-    "static/js/main.c2dfbf73.js"
+    "static/css/main.f37dd08f.css",
+    "static/js/main.4dd69022.js"
   ]
 }
