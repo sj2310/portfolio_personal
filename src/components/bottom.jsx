@@ -17,9 +17,7 @@ export const Bottom = () => {
           <a href="#contactId">Contact</a>
         </li>
       </ul>
-      <div className="bottom-copyright">
-        Copyright © 2024 Sajal Jain. All Rights Reserved.
-      </div>
+      
     </div>
   );
 };

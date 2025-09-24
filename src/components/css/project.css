@@ -5,6 +5,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 35px;
+    text-align: center;
 }
 .tab{
     min-width: 100%;
@@ -48,6 +49,7 @@ button:hover{
     }
     .tab img{
         width: 80%;
+        height: 50%;
     }
     .project-tab{
         flex-wrap: nowrap;

@@ -7,10 +7,11 @@
   --H6COLOR:hsla(0, 0%, 0%, 0.7);
 }
 html{
-  background-color: #FAF9F0;
+  background-image:url(./bg/sirisvisual-Qh6yUFl7P5E-unsplash.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
 }
 .App {
-  text-align: center;
   font-family: "Poppins", sans-serif;
   width: 90vw;
   margin: auto;
@@ -52,3 +53,7 @@ a{
     width: 75vw;
   }
  }
+/* Add this to the same global CSS file */
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
